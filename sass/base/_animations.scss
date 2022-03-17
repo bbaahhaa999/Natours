@@ -1,0 +1,49 @@
+@keyframes moveInLeft {
+  /* Before the animation actually start */
+  /* Initial state */
+  0% {
+    /* To be INVISIBLE! */
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  /* When the animation is finished */
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInRight {
+  /* Before the animation actually start */
+  /* Initial state */
+  0% {
+    /* To be INVISIBLE! */
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  /* When the animation is finished */
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInButton {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
